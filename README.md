@@ -1,4 +1,4 @@
-this is my attempt to create a basic blog-posting site using node.js where anyone could read all the blogs posted whether logged in or not. users can register and login to be allowed to create new blogs and post them to the site. users can only delete those blogs which they have created.
-much of the route-handling, server-side rendering and almost all of the views were taken from https://github.com/iamshaunjp/node-crash-course while learning the basocs from his youtube tutorial playlist.
-the user authentication including the use of passport.js and express-session.js was taken from https://github.com/WebDevSimplified/Nodejs-Passport-Login while learning their utilisation from his youtube tutorial video.
-i intended to merge the two projects to create a functioning blog site with user login and authentication.
+This is my attempt to create a basic blog-posting site using node.js where anyone could read all the blogs posted whether logged in or not. Users can register and login to be allowed to create new blogs and post them to the site. Users can only delete those blogs which they have created.
+Much of the route-handling, server-side rendering and almost all of the views were taken from https://github.com/iamshaunjp/node-crash-course while learning the basics from his youtube tutorial playlist.
+The user authentication including the use of passport.js and express-session.js was taken from https://github.com/WebDevSimplified/Nodejs-Passport-Login while learning their utilisation from his youtube tutorial video.
+I intended to merge the two projects to create a functioning blog site with user login and authentication.
