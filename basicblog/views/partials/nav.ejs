@@ -1,0 +1,20 @@
+<nav>
+		<div class="site-title">
+			<a href="/"><h1>yeayea</h1></a>
+			<p>this is yea a webpage</p>
+		</div>
+		<ul>
+			<li><a href="/">blogs</a><li>
+			<li><a href="/about">about</a><li>
+			<li><a href="/blogs/create">new blog</a><li>
+			<% if(!userLoggedIn) { %>
+				<li><a href="/login">login</a></li>
+				<li><a href="/register">sign up</a></li>
+			<% } else { %>
+				<form action="/logout?_method=DELETE" method="POST">
+					<button type="submit">logout</button>
+				</form>
+			<% } %>
+		</ul>
+	</nav>
+	
